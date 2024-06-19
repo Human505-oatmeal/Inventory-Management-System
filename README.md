@@ -11,6 +11,7 @@ This inventory management system is built with Python and PostgreSQL for efficie
 1. [Installation](#installation)
 2. [Database Schema](#database-schema)
 3. [Contributing](#contributing)
+4. [License](#license)
 
 ## Installation
 
@@ -89,11 +90,13 @@ transaction_type | VARCHAR | The type of transaction
 quantity | INT | The quantity
 transaction_date | DATE | Gets the current date, however you don't need to worry about this since the system does it for you.
 
-# Contributing
+## Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
 
+## License
 
+See LICENSE file.
 
 
 
