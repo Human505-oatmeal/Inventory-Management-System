@@ -27,7 +27,7 @@ git clone https://github.com/Human505-oatmeal/Inventory-Management-System.git
 cd Inventory-Management-System
 ```
 
-2. **Create and activate the repository**
+2. **Create and activate the virtual environment**
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
@@ -57,7 +57,7 @@ python app.py
 Column | Type | Description
 -------|------|------------
 id | SERIAL | PRIMARY KEY
-name | VARCHAR | category name
+name | VARCHAR | Category name
 
 **Suppliers**
 
@@ -65,18 +65,18 @@ name | VARCHAR | category name
 Column | Type | Description
 -------|------|------------
 id | SERIAL | PRIMARY KEY
-name | VARCHAR | supplier name
+name | VARCHAR | Supplier name
 
 **Products**
 
 Column | Type | Description
 -------|------|------------
 id | SERIAL | PRIMARY KEY
-name | VARCHAR | product name
-category_id | INT | the category_id that the product is associated with
-supplier_id | INT | the supplier_id that the product is associated with
-quantity | INT | the quantity of the product
-price | DECIMAL(9,2) | the price of the product
+name | VARCHAR | Product name
+category_id | INT | The category_id that the product is associated with
+supplier_id | INT | The supplier_id that the product is associated with
+quantity | INT | The quantity of the product
+price | DECIMAL(9,2) | The price of the product
 
 **Inventory_Transactions**
 
@@ -84,10 +84,10 @@ price | DECIMAL(9,2) | the price of the product
 Column | Type | Description
 -------|------|------------
 id | SERIAL | Primary Key
-product_id | INT | the product id relating to the products table
+product_id | INT | The product id relating to the products table
 transaction_type | VARCHAR | The type of transaction
-quantity | INT | the quantity
-transaction_date | DATE | gets the current date, however you don't need to worry about this since the system does it for you.
+quantity | INT | The quantity
+transaction_date | DATE | Gets the current date, however you don't need to worry about this since the system does it for you.
 
 # Contributing
 
