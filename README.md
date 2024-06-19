@@ -92,13 +92,8 @@ transaction_date | DATE | Gets the current date, however you don't need to worry
 
 ## Contributing
 
-Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
+Contributions are welcome! Please submit a pull request or open an issue to discuss any changes. I'm a bit new to Github so please be patient, I will do my best!
 
 ## License
 
 See LICENSE file.
-
-
-
-
-
