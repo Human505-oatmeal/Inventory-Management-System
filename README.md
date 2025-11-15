@@ -1,6 +1,5 @@
 # Inventory Management System
 
-## Overview
 This inventory management system is built with Python and PostgreSQL for efficient inventory tracking and management. This system allows users to add, update, delete and view inventory items, and also implements backup functionality via the CLI.
 
 ## Features
@@ -97,3 +96,4 @@ Contributions are welcome! Please submit a pull request or open an issue to disc
 ## License
 
 See LICENSE file.
+
